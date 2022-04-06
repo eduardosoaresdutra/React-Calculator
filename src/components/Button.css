@@ -1,0 +1,32 @@
+:root {
+    --border-button: solid 1px #888;
+}
+
+.buttonCalc {
+    font-size: 1.1rem;
+    border: none;
+    background-color: #F0F0F0;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
+
+.buttonCalc:active {
+    background-color: #CCC;
+}
+
+.buttonCalc.double {
+    grid-column: span 2;
+}
+
+.buttonCalc.triple {
+    grid-column: span 3;
+}
+
+.buttonCalc.operation {
+    background-color: #B4A8E0;
+}
+
+.buttonCalc.buttonCalc.operation:active {
+    background-color: #a59ace;
+}
